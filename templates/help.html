@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ich brauche Hilfe</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <main>
+    <h2>🆘 Ich muss echt dringend!</h2>
+    <form method="POST" action="/post_message">
+      <input name="situation" placeholder="Bin in der Vorlesung… noch 20 Minuten!" required />
+      <button class="btn red">Absenden</button>
+    </form>
+
+    <h3>Aktuelle Notlagen</h3>
+    <div id="feed"></div>
+  </main>
+  <script src="/static/script.js"></script>
+</body>
+</html>

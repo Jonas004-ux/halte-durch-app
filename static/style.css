@@ -1,0 +1,57 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #fefefe;
+  margin: 0;
+  padding: 1rem;
+  text-align: center;
+  color: #222;
+}
+
+h1, h2 {
+  font-size: 2rem;
+}
+
+input {
+  padding: 0.6rem;
+  width: 80%;
+  font-size: 1rem;
+  margin: 1rem auto;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: white;
+}
+
+.red { background: #e74c3c; }
+.green { background: #2ecc71; }
+
+#feed {
+  margin-top: 2rem;
+  text-align: left;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.message {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  background: #fafafa;
+}
+
+.message .time {
+  color: #aaa;
+  font-size: 0.8rem;
+}
